@@ -5,4 +5,5 @@
 ./test_python/test_python_02.py
 ##### 2.天山童姥类
 ./test_python/test_python_03.py
-
+### pytest第一次作业
+./test_pytest/test_calc.py
