@@ -9,3 +9,5 @@
 ./test_pytest/test_calc_01.py
 ### pytest第二次作业
 ./test_pytest/test_calc_02.py
+### WebUI第一次作业
+./test_webui/test_selenium_01.py
