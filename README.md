@@ -11,3 +11,6 @@
 ./test_pytest/test_calc_02.py
 ### WebUI第一次作业
 ./test_webui/test_selenium_01.py
+### WebUI第二次作业
+./test_webui/po_page
+./test_webui/po_testcase/test_adddepartment.py
