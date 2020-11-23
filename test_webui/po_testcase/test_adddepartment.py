@@ -8,4 +8,5 @@ class TestAdddepartment:
         self.login = LoginPage()
 
     def test_adddepartment(self):
-        self.login.goto_main_page().goto_contact_page().goto_adddepartment_page().adddepartment()
+        result = self.login.goto_main_page().goto_contact_page().goto_adddepartment_page().adddepartment("3")
+        assert result == "3"

@@ -3,6 +3,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:
@@ -25,3 +26,7 @@ class BasePage:
 
     def quit(self):
         return self._driver.quit()
+
+    def webdriver_wait(self, time, expected_conditions, by, locator):
+        return WebDriverWait(self._driver, time).until(expected_conditions((by, locator)))
+
